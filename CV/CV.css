@@ -1,0 +1,95 @@
+#name{
+    text-align: center;
+    color:blue;
+    font-size:3rem;
+}
+body{
+    margin: 0%;
+}
+.main-container{
+    margin-top: 20%;
+    margin: 80px;
+    border: 3px groove black;   
+    overflow-x: hidden;
+}
+.header{
+    display: flex;
+    width: 100%;
+}
+.details{
+     position: absolute;
+     text-align: left;
+}
+.details table{
+    font-size: 30px;
+}
+.photo{
+    position: relative;
+    width: 150px;
+    left:980px;
+}
+h2{
+    background:linear-gradient(45deg,rgb(118, 118, 238),rgb(238, 128, 128));
+    color: white;
+    margin: 20px 0px;  
+    padding: 7px 10px;
+}
+ 
+p{
+    font-size: 25px;
+    line-height: 50px;
+    padding: 0px 30px;
+    text-indent: 150px;
+    text-align: justify;
+    margin: 10px 10px;
+      
+}
+table{
+    margin:10px 30px;
+    border-collapse: collapse;
+}
+table tr td{
+    font-size: 25px;
+    padding:10px 10px ;
+    text-align: left;
+    vertical-align: middle;
+}
+.colon tr td:nth-child(2)::before{
+    content: ":";
+    padding-right: 20px;
+   }
+table tr th{
+    font-size: 25px;
+    padding:10px 10px ;
+    text-align: left;
+    color:rgb(241, 100, 100) ;
+}
+ul{
+    margin-left: 20px;
+}
+ol{
+    margin-left: 20px;
+}
+li{
+    font-size: 25px;
+    line-height: 50px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color:red;
+}
+.pro h4{
+    padding: 0px;
+    margin: 0%;
+
+}
+.aca table tr td{
+    text-align: center;
+}
+h3{
+    font-size: 30px;
+    padding-left: 40px;
+}
+ 
