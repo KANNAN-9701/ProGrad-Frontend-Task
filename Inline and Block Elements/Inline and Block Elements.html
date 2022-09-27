@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .inline{
+            background:linear-gradient(45deg, rgb(218, 241, 175) 60%,rgb(170, 235, 161) 40%);
+        }
+        .block{
+            background:linear-gradient(45deg,rgb(201, 243, 241) 70%,rgb(245, 202, 224) 30%);
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="inline">
+    <h1 align="center"><u>Inline Elements</u></h1>
+    <a href="https://www.google.com/" target="_blank">Google</a> (a tag) <br>
+    <abbr title="World wide Web">WWW</abbr> (acronym tag) <br>
+    <b>This is bold (b tag)</b> <br>
+    <bdo dir="rtl">This is Bi-Directional Override (bdo tag) </bdo> <br>
+    <big> This is big text (big tag) </big> <br>
+    break tag (br tag) <br>
+    <button>Click Here</button>(button tag) <br>
+    <cite>KANNAN</cite> (cite tag) <br>
+    <code>for(int i=0;i<=10;i++);</code> (code tag ) <br>
+    <dfn>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore nihil delectus vitae consequuntur illum quae ex sint perspiciatis nesciunt.</dfn> (dfn tag) <br>
+    <em>This is emphasized text</em> (em tag) <br>
+    <i>This is italic text</i> (i tag) <br>
+    <img src="source/pic1.jpg" width="200px" usemap="#workmap"> (img tag) <br>
+    <map name="workmap">
+        <area shape="rect" coords="34,44,270,350" alt="Computer" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4T47K5fb7Hyjiy6opjKf4VKKc183ZpZZXhg&usqp=CAU">
+         
+      </map> (map tag) <br>
+    <input type="text" placeholder="This is input"> (input tag) <br>
+    <kbd>ctrl + A</kbd>(kbd tag) <br>
+    <label>This is Label</label> (label tag) <br>
+    <q>This is quote text</q> (q tag) <br>   
+    <samp>used to define sample output from a computer program.</samp> (samp tag) <br>
+    <b id="demo"></b>
+    <script>document.getElementById("demo").innerHTML = "Hello JavaScript!";</script> (script tag) <br>
+    <select>
+        <option value="java">JAVA</option>
+        <option value="python">Python</option>
+        <option value="c++">C++</option>
+        <option value="c">C</option>
+      </select> (select tag) <br>
+    <small>This is small text</small> (small tag) <br>
+    <i>This is <span style="color:blue">span</span> tag</i> (span tag) <br>
+    <strong>This is Strong text</strong> (strong tag) <br>
+    <i>H<sub>2</sub>O</i> (sub tag) <br>  
+    <i>X<sup>2</sup></i> (sup tag) <br>
+    <textarea>Text area</textarea> (Textarea tag) <br>
+    <time>02:00 to 5:00</time> (time tag) <br> 
+    <var>l</var>x<var>b</var> (var tag) <br>
+    <form oninput="result.value=parseInt(a.value)+parseInt(b.value)">
+        <input type="range" id="b" name="b" value="50" /> +
+        <input type="number" id="a" name="a" value="10" /> =
+        <output name="result" for="a b">60</output> (output tag) <br>
+      </form> 
+      <object data="/source/pic1.jpg" width="200" height="120"></object> (object tag) <br>
+      
+    </div>
+    <div class="block">
+    <h1 align="center"><u>Block Elements</u></h1>
+    <h1>This is h1 tag</h1>
+    <h2>This is h2 tag</h2>
+    <h3>This is h3 tag</h3>
+    <h4>This is h4 tag</h4>
+    <h5>This is h5 tag</h5>
+    <h6>This is h6 tag</h6>
+
+    <p>This is the P tag. Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit sapiente illum eum quidem eaque quis accusantium obcaecati, expedita eius exercitationem esse suscipit corporis nam aperiam quo dolor maxime sint. Nulla.</p>
+
+    <pre>This is pre tag. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro, dolores!  </pre>
+
+    <header>This is Header</header>
+    <nav>This is nav</nav>
+    <aside>This is aside</aside>
+    <main>This is main </main>
+    <section>This is section</section>
+    <article>This is article</article>
+    <footer>This is footer</footer>
+    
+    <li>This is list (li)</li>
+
+    <ul>
+        <li>This is unordered list (ul)</li>
+        <li>This is unordered list (ul)</li>
+    </ul>
+
+    <ol>
+        <li>This is ordered list (ul)</li>
+        <li>This is ordered list (ul)</li>
+    </ol>
+
+    <address>This is Address tag 1/2 abc, xyx, 123</address>
+    
+    <dl>
+        Descrition list (dl)
+    </dl>
+
+    <dl>
+        <dt>Define name/term (dt)</dt>
+        <dd>Descripe name/ term (dd)</dd>
+        <dt>cat</dt>
+        <dd>white cute milk </dd>
+        <dt>dog</dt>
+        <dd>Brown big biscuit</dd>
+    </dl>
+
+    <fieldset>This is fieldset tag</fieldset>
+
+    <figure>This is figure element
+        <br>
+        <img src="source/pic1.jpg" alt="" width="200px">
+        <figcaption>This is figcaption tag</figcaption>
+    </figure>
+
+    <form action="">This is form tag
+        <input type="text">
+        <input type="password">
+        <input type="submit">
+    </form>
+
+    <table border="1">
+        <tr>
+            <th>name</th>
+            <th>age</th>
+        </tr>
+        <tr>
+            <td>kannan</td>
+            <td>22</td>
+        </tr>
+        this is table tag 
+    </table>
+
+    <video src="source/video.mp4" controls width="200px">This is video tag</video>
+
+    <tfoot>This is tfoot tag ( group footer content in an HTML table.)</tfoot>
+
+    <noscript>This is noscript tag</noscript>
+
+    <canvas>This is canvas tag</canvas>
+
+    <blockquote>
+        This is blackquote tag
+    </blockquote>
+<br>
+    This is hr tag( horizontal line)
+    <hr>
+</div>  
+</body>
+</html>
