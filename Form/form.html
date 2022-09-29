@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <form action="">
+        <h1 align="center">REGISTRATION FORM</h1>
+        <fieldset class="basic">
+            <legend>Basic Information</legend>
+            Title  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            <select name="" id="">
+                <option value="Mr" selected hidden></option>
+                <option value="Mr">Mr</option>
+                <option value="Mrs">Mrs</option>
+                <option value="Miss">Miss</option>
+                <option value="Ms">Ms</option>
+            </select> <br>
+            First Name  <input type="text"> <br>
+            Last Name  <input type="text"> <br>
+            DOB   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <input type="date"> <br>
+            Gender   &nbsp; &nbsp;
+            <label for="1"><input type="radio" name="gender" id="1" value="Male">Male</label>
+            <label for="2"><input type="radio" name="gender" id="2" value="Female">Female</label>
+            <label for="3"><input type="radio" name="gender" id="3" value="Others">others</label>
+           
+        </fieldset>
+        <fieldset class="contact">
+            <legend>Contact Details</legend>
+            Email : <input type="email" placeholder="abc123@gmail.com">
+            Mobile Number : <input type="number " maxlength="10">
+        </fieldset>
+        <fieldset class="address">
+            <legend>Address</legend>
+            Flat No / Door No <input type="text" name="" id="">
+            Street Name  <input type="text" name="" id=""> 
+            Village / City  <input type="text">
+            State  <input type="text" name="" id="">
+            Country  <input type="text" name="" id="">
+            Postal / Zip code <input type="number">
+        </fieldset>
+        <fieldset class="skill">
+            <legend>Skills</legend>
+            <label for="4"><input type="checkbox" name="skills" id="4">HTML5</label>
+            <label for="5"><input type="checkbox" name="skills" id="5">CSS3</label>
+            <label for="6"><input type="checkbox" name="skills" id="6">JavaScript</label>
+            <label for="7"><input type="checkbox" name="skills" id="7">MySQL</label>
+            <label for="8"><input type="checkbox" name="skills" id="8">JAVA</label>
+            <label for="9"><input type="checkbox" name="skills" id="9">Python</label>
+        </fieldset>
+        <fieldset>
+            <legend>Documents</legend>
+            Upload your latest Profile Picture : <input type="file" accept="image/*"> <br>
+            Upload your Resume / CV : <input type="file" accept=".pdf">
+        </fieldset>
+        <fieldset class="login"> 
+            <legend>Login Information</legend>
+            User Name : <input type="text" name="" id="" placeholder=""> <br>
+            Password : <input type="password" name="" id=""> <br>
+            Confirm Password : <input type="password" name="" id="">
+        </fieldset>
+        <fieldset>
+            <legend>Other Information</legend>
+            <textarea placeholder="If You Want Say Something Write here.." cols="90" rows="5"></textarea>
+        </fieldset>
+        <center><input type="submit" value="SUBMIT"> <input type="reset" value="RESET"></center>
+    </form>
+</body>
+</html>
