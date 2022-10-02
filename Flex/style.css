@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+header{
+    width: 100vw;
+    height: 10vh;
+    background-color: black ;
+}
+header nav ul{
+    list-style-type: none;
+    display: flex;
+}
+header nav ul li{
+    color: white;
+    font-weight: bold;
+    font-size:x-large;
+    background-color: gray;
+    padding: 10px 40px;
+    margin:10px 10px;
+    margin-bottom: 0;
+}
+li:hover{
+    background-color: yellow;
+    color: red;
+    cursor: pointer;
+}main{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+}
+.box1{
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+.box1 .bg{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: url("https://media.istockphoto.com/photos/pepperoni-pizza-on-wooden-table-picture-id1301482898?b=1&k=20&m=1301482898&s=170667a&w=0&h=XLgT9kG_7_n02S-YzOY71EzcGgqBnY-GukEfhjOui64=");
+    background-repeat: no-repeat;
+    background-color: aqua;
+    background-size: cover;
+    filter:blur(7px);
+
+}
+.box1 .txt{
+    position: absolute;
+}
+h1{
+    text-align: center;
+    font-size:50px;
+    padding: 10px;
+    color:red;
+    text-shadow: 2px 2px 5px white;
+}
+h1:hover{
+    color:green;
+    text-shadow: 2px 2px 5px white;
+}
+p{
+    text-indent: 50px;
+    padding: 20px;
+    text-align: justify;
+    font-size:23px;
+    color: rgb(255, 238, 0);
+    font-weight: bolder;
+}
+.box2{
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(45deg,gray,black,gray);
+    background-repeat: no-repeat;
+    background-size:cover;
+     
+}
+.box2 img{
+   width: 50%;  
+   margin: 10px 0px; 
+   margin-left:190px;
+   border: 5px solid white;
+}
+img:hover{
+    border: 5px solid yellow ;
+}
+ 
+footer{
+    height: 10vh;
+    width: 100vw;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+h3{
+    padding: 5px;
+}
