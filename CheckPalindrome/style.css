@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(gray,black);
+}
+fieldset{
+    height: 200px;
+    width: 500px;
+    text-align: center;
+    border: 5px groove yellow;
+}
+legend{
+    color: rgba(255, 255, 255, 0.914);
+    font-size: xx-large;
+    text-shadow: 3px 3px 5px red;
+}
+label{
+    font-size: x-large;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+}
+input{
+    margin:30px 5px;
+    height: 25px;
+    width: 250px;
+    border: 3px solid black;
+    font-size: x-large;
+    color: blue;
+}
+button{
+    height: 50px;
+    width: 100px;
+    border: 3px solid green;
+    background-color: orange;
+    border-radius: 10px;
+    color: rgb(255, 0, 0);
+    font-size: 25px;
+    font-weight: bolder;
+    cursor: pointer;
+}
