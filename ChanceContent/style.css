@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin:0;
+}
+h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 50px;
+    font-size:100px;
+    text-shadow: 5px 5px 20px yellow;
+}
+body{
+    background-image:url("https://media.istockphoto.com/photos/aerial-sunset-view-at-landmark-81-is-a-super-tall-skyscraper-in-ho-picture-id1346481055?b=1&k=20&m=1346481055&s=170667a&w=0&h=cfEP6y09hdZYgqVgpPeGGOAtxeK_Oou-4JySpaIdTCQ=") ;
+    background-size: cover;
+}
+.container{
+    background-color: antiquewhite;
+    height:50vh;
+    width: 50vw;
+    margin: auto;
+    margin-top: 2%;
+    border: 5px solid rgb(151, 47, 255);
+    position: relative;
+}
+h2{
+    background-color: rgb(151, 47, 255);
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+p{
+    margin: 40px 10px;
+    padding: 5px;
+    text-align: justify;
+    font-size:25px;
+}
+.btn{
+    width: 100%;
+    height: 15%;
+    background-color: rgb(151, 47, 255);
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    height: 40px;
+    width: 100px;
+    margin: 20px;
+    background: orange;
+    color: white;
+    font-size: x-large;
+    border-radius: 10px;
+}
