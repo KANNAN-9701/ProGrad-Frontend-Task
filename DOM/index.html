@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="div1">
+        <div>
+            <h1 class="one" id="one" name="one"></h1>
+        </div>
+        <div>
+            <button onclick="lig()">Light</button>
+            <button onclick="dar()">Dark</button>
+            <button onclick="hid()">Hide</button>
+            <button onclick="vis()">Visible</button>
+            <button onclick="rec()">Rectangle</button>
+            <button onclick="rou()">Round</button>
+        </div>
+    </div>
+    <div id="div2">
+        <h1>Enter Your Skills</h1>
+        <button onclick="sadd()">ADD</button>
+        <input type="text">
+    </div>
+    <div id="div3">
+        <button name="btn1">Change Background to blue</button>
+        <button name="btn2">Change Background to pink</button>
+        <button name="btn3">Change Background to green</button>
+    </div>
+    <div id="div4">
+        <h1>CountDown</h1>
+        <button onclick="start()">START</button>
+        <h1 id="count">...</h1>
+        <button onclick="setTimeout(box,3000)">Show Date after 3s</button>
+        <div class="dat">DATE</div>
+    </div>
+    <div id="div5">
+        <table id="tab1">
+            <tr>
+                <th>NAME</th>
+                <th>RollNo</th>
+                <th>DEPT</th>
+            </tr>
+            <tr>
+                <td>KANNAN</td>
+                <td>18ME034</td>
+                <td>Mech</td>
+            </tr>
+        </table>
+        <div>
+            <input type="text"  id="name1" placeholder="Enter Name">
+            <input type="text"  id="rollno1" placeholder="Enter RollNo">
+            <input type="text"  id="dept1" placeholder="Enter Department">
+            <button onclick="addrow()">Add Row</button>
+        </div>
+        <div>
+            <input type="text"  id="row1" placeholder="Enter Row">
+            <input type="text"  id="col1" placeholder="Enter Column">
+            <input type="text"  id="val1" placeholder="Enter Value">
+            <button onclick="update()">Update...</button>
+        </div>
+    </div>
+    <div id="div6">
+        <table id="tab2"></table>
+        <div>
+            <input type="text"  id="row2" placeholder="Enter No rows">
+            <input type="text"  id="col2" placeholder="Enter No cols">
+            <button onclick="ctable()">Create Table</button>
+        </div>
+        <div>
+            <input type="text"  id="row3" placeholder="Enter Row">
+            <input type="text"  id="col3" placeholder="Enter Column">
+            <input type="text"  id="val2" placeholder="Enter Value">
+            <button onclick="update2()">Update...</button>
+        </div>
+    </div>
+
+    <script src="JS.js"></script>
+</body>
+</html>
